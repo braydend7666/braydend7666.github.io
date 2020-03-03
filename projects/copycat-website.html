@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="../style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -27,73 +27,63 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" id="github" target="_blank">Github</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="../index.html#projects">Projects</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- First Container -->
-    <div class="container-fluid bg-1 text-center">
-        <!--<h1 class="margin">Name</h1>-->
-        <img src="img/BraydenDLogo.png" class="img-fluid" alt="Logo" id="logo">
-    </div>
-
-    <!-- Second Container -->
-    <div class="container-fluid bg-2 text-center" id="projects">
-        <h3 class="margin">Projects</h3>
-        <p>Coming soon!</p>
+    <div class="container-fluid bg-1">
         <div class="container">
+
+            <h1 class="margin text-center">Copycat Website</h1>
+            <p>The purpose of the copycat project is to reverse engineer a website. I wanted to reverse engineer Pupilpath because I am the most familiar with it. I've been using pupilpath for years and I love the simple yet snazzy design. It has a very clean design that seemed simple to replicate. However I found out that there would be one BIG problem. When I reduced the opacity of the box, the text faded also. I attempted to use !important, but it never worked for me. My soultion was to use rgba instead of adjusting the div's opacity. This ended up working and now my copycat website is done!</p>
+
+            <a href="https://braydend7666.github.io/copycat-website-braydend7666/">Preview</a>
+            <br>
+            <!--EXAMPLE OF GITHUB LINK-->
+            <a href="https://github.com/braydend7666/copycat-website-braydend7666">Github</a>
+            
+            <br>
+
+            <img src="../img/pupilpath.png" class="img-fluid project-img">
+            <img src="../img/pupilpath-html.png" class="img-fluid project-img">
+
+
+
             <div class="row">
 
-                
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Copycat Website</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">11th Grade</h6>
-                            <p class="card-text">In this project I tried to replicate Pupilpath.</p>
-                            <a href="projects/copycat-website.html" class="card-link">More</a>
-                        </div>
-                    </div>
+                <!--
+                <div class="col-sm-6">
+                    Use this to...
                 </div>
-                
+                <div class="col-sm-6">
+                    ...make two columns
+                </div>
+                -->
 
             </div>
+
         </div>
-        </a>
     </div>
 
-    <!-- Third Container (Grid) -->
-    <div class="container-fluid bg-3 text-center">
-        <h3 class="margin">About Me</h3><br>
-        <div class="row">
-            <div class="col-sm-4">
-                <p>Brayden is a coaster enthusaiast from nyc! </p>
-            </div>
-            <div class="col-sm-4">
-                <p>Brayden goes to HSTAT and is in the 11th grade!</p>
-            </div>
-            <div class="col-sm-4">
-                <p>Brayden wants to own an amusment park when he grows up!</p>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Footer -->
     <footer class="container-fluid bg-4 text-center">
-        <a href="#" target="_blank" id="fork"><img src="img/fork.png"></a><br>
+        <a href="#" target="_blank" id="fork"><img src="../img/fork.png"></a><br>
         <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
     </footer>
 
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 
 </html>
